@@ -1,0 +1,143 @@
+@media screen and (min-width: 500px) {
+
+/**************************
+Global CSS
+**************************/
+body {
+  max-width: 100%;
+  margin: 10% 25%;
+}
+
+h1 {
+  font-size: 17em;
+  width: 70%;
+  margin: 0;
+  float: left;
+}
+
+h2 {
+  font-size: 4em;
+  width: 70%;
+  margin: 5% 0 5% 0;
+  float: left;
+}
+
+h3 {
+  clear: both;
+  font-weight: 200;
+}
+
+
+/**************************
+<nav> CSS
+**************************/
+nav {
+  width: 20%;
+  float: right;
+  margin: 15% 0;
+  text-transform: uppercase;
+}
+
+
+
+/**************************
+index.html CSS
+**************************/
+.contact-info {
+  width: 70%;
+  margin: 0;
+}
+
+.contact-info li {
+  margin: 0 7%;
+}
+
+
+
+/**************************
+dev.html CSS
+**************************/
+.sw-info {
+  clear: both;
+  margin: 0;
+}
+
+.sw-info li {
+  margin: 0 4.5%;
+  clear: both;
+}
+
+.sw-icon {
+  max-width: 65px;
+}
+
+
+
+/**************************
+proj.html CSS
+**************************/
+.projects {
+  width: 100%;
+}
+
+.projects li {
+  float: left;
+  width: 25%;
+}
+
+
+.projects li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 1em;
+  color: #000;
+}
+
+.projects img {
+  width: 100%;
+}
+
+
+.projects .redlabel:hover {
+  background-color: #EE2C2C;
+}
+
+.projects .yellowlabel:hover {
+  background-color: #FC0;
+}
+
+.projects .greenlabel:hover {
+  background-color: green;
+}
+
+.projects .bluelabel:hover {
+  background-color: #66CCCC;
+}
+
+
+.projects .redlabel p,
+.projects .yellowlabel p,
+.projects .greenlabel p,
+.projects .bluelabel p {
+  background-color: none;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+  .projects .redlabel p {
+    background-color: #EE2C2C;
+  }
+
+  .projects .yellowlabel p {
+    background-color: #FC0;
+  }
+
+  .projects .greenlabel p {
+    background-color: green;
+  }
+
+  .projects .bluelabel p {
+    background-color: #66CCCC;
+  }
+}

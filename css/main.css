@@ -3,7 +3,7 @@ Global CSS
 **************************/
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  margin: 5% 15%;
+  margin: 5% 5%;
   max-width: 300px;
 }
 
@@ -84,6 +84,7 @@ index.html CSS
 
 .contact-info a:hover {
   font-weight: 600;
+  background-color: #f7ff00;
 }
 
 
@@ -184,4 +185,30 @@ proj.html CSS
 
 .projects img {
   width: 100%;
+}
+
+
+.key {
+  line-height: .5;
+}
+
+
+.red {
+  background-color: #EE2C2C;
+  color: #EE2C2C;
+}
+
+.blue {
+  background-color: #66CCCC;
+  color: #66CCCC;
+}
+
+.yellow {
+  background-color: #FC0;
+  color: #FC0;
+}
+
+.green {
+  background-color: green;
+  color: green;
 }
