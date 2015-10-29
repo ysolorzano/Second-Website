@@ -4,16 +4,15 @@ Global CSS
 body {
   font-family: 'Roboto Condensed', sans-serif;
   margin: 5% 5%;
-  max-width: 300px;
+  max-width: 100%;
 }
-
 
 ul {
   list-style: none;
 }
 
 h1 {
-  font-size: 11em;
+  font-size: 12em;
   margin: 0;
   padding: 0;
 }
@@ -22,10 +21,6 @@ h2 {
   font-size: 2.5em;
   margin: 0;
   padding: 0;
-}
-
-a:hover {
-  background-color: #f7ff00;
 }
 
 .wrapper p {
@@ -70,10 +65,30 @@ a:visited {
   color: #000;
 }
 
+a:hover {
+  background-color: #f7ff00;
+}
+
+
 
 /**************************
 index.html CSS
 **************************/
+.logo {
+  -webkit-animation: flicker 2s infinite;
+  text-align:center;
+}
+
+@-webkit-keyframes flicker
+{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
+
 .contact-icon {
   max-height: 30px;
 }
@@ -81,11 +96,13 @@ index.html CSS
 .contact-info ul {
   width: 100%;
   margin: 0;
+  text-align: center;
 }
 
 .contact-info li {
   display: inline-block;
-  margin: 2.5%;
+
+  margin: 4%;
   font-size: 2.5em;
 }
 
@@ -127,50 +144,8 @@ dev.html CSS
 /**************************
 eng.html CSS
 **************************/
-.infographic {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  width: 100%;
-}
 
 
-.degree-info {
-  font-size: 3em;
-  font-weight: 600;
-  margin: 0;
-  padding: 0;
-}
-
-.degree-info li {
-  display: inline-block;
-  height: 75px;
-  position: relative;
-  width: 100%;
-}
-
-.work-content {
-  display: table;
-  height: 75px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.work-content span {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: .35em;
-  opacity: 0;
-}
-
-.work-content span:active,
-.work-content span:hover {
-  background-color: #fff;
-  color: #000;
-  opacity: 1;
-  font-weight: 200;
-}
 
 
 /**************************
@@ -182,8 +157,8 @@ proj.html CSS
 
 .projects li {
   float: left;
-  width: 50%;
-  margin: 0;
+  width: 44%;
+  margin: 1%;
   background-color: #f5f5f5;
   color: #000;
 }
@@ -199,11 +174,13 @@ proj.html CSS
   width: 100%;
 }
 
-
 .key {
   line-height: .5;
 }
 
+.projects a:hover {
+  background-color: #fff;
+}
 
 .red {
   background-color: #EE2C2C;

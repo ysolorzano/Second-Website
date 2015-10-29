@@ -28,6 +28,8 @@ h3 {
 }
 
 
+
+
 /**************************
 <nav> CSS
 **************************/
@@ -82,7 +84,8 @@ proj.html CSS
 
 .projects li {
   float: left;
-  width: 25%;
+  width: 23%;
+  margin: 1%;
 }
 
 
@@ -91,6 +94,7 @@ proj.html CSS
   padding: 5%;
   font-size: 1em;
   color: #000;
+  text-align: center;
 }
 
 .projects img {
@@ -112,14 +116,6 @@ proj.html CSS
 
 .projects .bluelabel:hover {
   background-color: #66CCCC;
-}
-
-
-.projects .redlabel p,
-.projects .yellowlabel p,
-.projects .greenlabel p,
-.projects .bluelabel p {
-  background-color: none;
 }
 
 }
