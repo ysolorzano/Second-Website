@@ -1,0 +1,187 @@
+/**************************
+Global CSS
+**************************/
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 5% 15%;
+  max-width: 300px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 11em;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/**************************
+<nav> CSS
+**************************/
+nav {
+  font-size: 1.7em;
+  line-height: 1.5;
+  margin: 10% 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a:hover {
+  background-color: #f7ff00;
+}
+
+nav .selected {
+  background-color: #f7ff00;
+  font-weight: 600;
+}
+
+
+/**************************
+link play CSS
+**************************/
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+
+/**************************
+index.html CSS
+**************************/
+.contact-icon {
+  max-height: 30px;
+}
+
+.contact-info ul {
+  width: 100%;
+  margin: 0;
+}
+
+.contact-info li {
+  display: inline-block;
+  margin: 2.5%;
+  font-size: 2.5em;
+}
+
+.contact-info a:hover {
+  font-weight: 600;
+}
+
+
+
+/**************************
+dev.html CSS
+**************************/
+.sw-icon {
+  max-width: 40px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.sw-icon:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: drop-shadow(4px 4px 20px black));
+  -webkit-filter: drop-shadow(4px 4px 20px black);
+}
+
+.sw-info li {
+  display: inline-block;
+    margin: 0 2%;
+}
+
+
+
+/**************************
+eng.html CSS
+**************************/
+.infographic {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  width: 100%;
+}
+
+
+.degree-info {
+  font-size: 3em;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.degree-info li {
+  display: inline-block;
+  height: 75px;
+  position: relative;
+  width: 100%;
+}
+
+.work-content {
+  display: table;
+  height: 75px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.work-content span {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: .35em;
+  opacity: 0;
+}
+
+.work-content span:active,
+.work-content span:hover {
+  background-color: #fff;
+  color: #000;
+  opacity: 1;
+  font-weight: 200;
+}
+
+
+/**************************
+proj.html CSS
+**************************/
+.projects {
+  width: 100%;
+}
+
+.projects li {
+  float: left;
+  width: 50%;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+.projects li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #000;
+}
+
+.projects img {
+  width: 100%;
+}
