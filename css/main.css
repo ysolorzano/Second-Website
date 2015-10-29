@@ -24,6 +24,15 @@ h2 {
   padding: 0;
 }
 
+a:hover {
+  background-color: #f7ff00;
+}
+
+.wrapper p {
+  font-size: 1.2em;
+  line-height: .5;
+  clear: left;
+}
 
 
 /**************************
@@ -33,6 +42,7 @@ nav {
   font-size: 1.7em;
   line-height: 1.5;
   margin: 10% 0;
+  text-transform: uppercase;
 }
 
 nav ul {
@@ -41,14 +51,11 @@ nav ul {
   padding: 0;
 }
 
-nav a:hover {
-  background-color: #f7ff00;
-}
-
 nav .selected {
   background-color: #f7ff00;
   font-weight: 600;
 }
+
 
 
 /**************************
@@ -105,9 +112,14 @@ dev.html CSS
   -webkit-filter: drop-shadow(4px 4px 20px black);
 }
 
+
 .sw-info li {
   display: inline-block;
     margin: 0 2%;
+}
+
+.sw-info a:hover {
+  background-color: #fff;
 }
 
 
