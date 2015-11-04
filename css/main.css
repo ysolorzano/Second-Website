@@ -24,6 +24,9 @@ h2 {
 }
 
 .wrapper p {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.2em;
   clear: left;
 }
@@ -31,8 +34,21 @@ h2 {
 
 .highlight {
   font-weight: 600;
+  margin: 1% 0;
 }
 
+p {
+  margin: 0;
+}
+
+hr {
+    border: solid;
+    height: 1px;
+    /* Set the hr color */
+    color: #000; /* old IE */
+    background-color: #000; /* Modern Browsers */
+    margin-bottom: 5%;
+}
 
 /**************************
 <nav> CSS
@@ -100,19 +116,29 @@ index.html CSS
 .contact-info ul {
   width: 100%;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .contact-info li {
   display: inline-block;
-
-  margin: 4%;
+  margin: 2%;
   font-size: 2.5em;
+  line-height: .5;
+
+}
+
+.contact-info a {
 }
 
 .contact-info a:hover {
   font-weight: 600;
   background-color: #f7ff00;
+}
+
+.contact-label {
+  text-transform: uppercase;
+  font-size: .4em;
+  margin: 4%;
 }
 
 
@@ -133,10 +159,15 @@ dev.html CSS
   -webkit-filter: drop-shadow(4px 4px 20px black);
 }
 
+.sw-info {
+  margin: 0 auto;
+  padding: 0px;
+  text-align: justify;
+}
 
 .sw-info li {
   display: inline-block;
-    margin: 0 2%;
+  margin: 3%;
 }
 
 .sw-info a:hover {
@@ -204,4 +235,8 @@ proj.html CSS
 .green {
   background-color: green;
   color: green;
+}
+
+.ss {
+  width: 50%;
 }
