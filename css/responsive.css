@@ -5,7 +5,7 @@ Global CSS
 **************************/
 body {
   max-width: 100%;
-  margin: 11% 15%;
+  margin: 15% 15%;
 }
 
 h1 {
@@ -23,14 +23,40 @@ h2 {
 }
 
 h3 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
   clear: both;
   font-weight: 200;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .wrapper a {
   font-size: 1.2em;
 }
 
+.desktop {
+  width: 70%;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.ss {
+  width: 70%;
+}
+
+.concepts {
+  width: 70%;
+}
 
 /**************************
 <nav> CSS
@@ -38,7 +64,7 @@ h3 {
 nav {
   width: 25%;
   float: right;
-  margin: 10% 0;
+  margin: 0;
   text-transform: uppercase;
 }
 
@@ -47,6 +73,18 @@ nav {
 /**************************
 index.html CSS
 **************************/
+.logo {
+  -webkit-animation: flicker 2s infinite;
+  margin: 0;
+  width: 100%;
+  font-size: 6.75em;
+  font-weight: 600;
+}
+
+.note {
+width: 70%;
+}
+
 .contact-info {
   width: 70%;
   margin: 0;
@@ -58,19 +96,22 @@ index.html CSS
   margin: 0 7%;
 }
 
-
+.contact-label {
+  font-size: .4em;
+}
 
 /**************************
 dev.html CSS
 **************************/
 .sw-info {
-  clear: both;
+  width: 70%;
   margin: 0;
 }
 
 .sw-info li {
-  margin: 0 4.5%;
+  margin: 0 4%;
   clear: both;
+  font-size: 5em;
 }
 
 .sw-icon {
@@ -88,14 +129,13 @@ proj.html CSS
 
 .projects li {
   float: left;
-  width: 23%;
-  margin: 1%;
+  width: 24%;
+  margin: .5%;
 }
 
 
 .projects li a p {
   margin: 0;
-  padding: 5%;
   font-size: 1em;
   color: #000;
   text-align: center;
