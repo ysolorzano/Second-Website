@@ -74,11 +74,13 @@ nav {
 index.html CSS
 **************************/
 .logo {
-  -webkit-animation: flicker 2s infinite;
-  margin: 0;
-  width: 100%;
   font-size: 6.75em;
   font-weight: 600;
+}
+
+.logo img {
+  width: 40%;
+  margin: 0;
 }
 
 .note {
@@ -129,7 +131,7 @@ proj.html CSS
 
 .projects li {
   float: left;
-  width: 24%;
+  width: 14%;
   margin: .5%;
 }
 
@@ -145,39 +147,4 @@ proj.html CSS
   width: 100%;
 }
 
-
-.projects .redlabel:hover {
-  background-color: #EE2C2C;
-}
-
-.projects .yellowlabel:hover {
-  background-color: #FC0;
-}
-
-.projects .greenlabel:hover {
-  background-color: green;
-}
-
-.projects .bluelabel:hover {
-  background-color: #66CCCC;
-}
-
-}
-
-@media screen and (max-width: 400px) {
-  .projects .redlabel p {
-    background-color: #EE2C2C;
-  }
-
-  .projects .yellowlabel p {
-    background-color: #FC0;
-  }
-
-  .projects .greenlabel p {
-    background-color: green;
-  }
-
-  .projects .bluelabel p {
-    background-color: #66CCCC;
-  }
 }
